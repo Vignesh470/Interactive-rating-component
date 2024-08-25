@@ -29,15 +29,17 @@ Users should be able to:
 ### Screenshot
 
 Desktop solution:
+
 ![](./design/desktop%20solution.png)
 
 Mobile solution:
+
 ![](./design/mobile%20solution.jpeg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Link](https://www.frontendmentor.io/solutions/interactive-rating-component-page---by-foreach-method-iHmDPLEB2s)
+- Live Site URL: [Link](https://vignesh470.github.io/Interactive-rating-component/)
 
 ## My process
 
