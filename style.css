@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+}
+
+body {
+    min-height: 100vh;
+    /* height: 100%; */
+    margin: 0;
+    background-color: hsl(216, 12%, 8%);
+    font-size: 15px;
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: min(90%, 22rem);
+    /* min-width: 60%; */
+}
+
+.image {
+    width: 2.5rem;
+    height: 2.5rem;
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 1.5rem;
+    padding: 0.8rem 0.9rem;
+}
+
+.rating {
+    padding: 2rem;
+    border-radius: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to bottom, hsl(213, 19%, 18%), hsl(213, 19%, 13%));
+}
+
+.question {
+    font-size: 1.5rem;
+    margin-block-start: 1rem;
+    margin-block-end: 0;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul li {
+    width: 2.5rem;
+    height: 2.5rem;
+    padding-top: 0.75rem;
+    text-align: center;
+    color: hsl(217, 12%, 63%);
+    font-size: 0.9rem;
+    font-weight: 700;
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 50%;
+    cursor: pointer;
+    transition-duration: 200ms;
+}
+
+ul li:hover {
+    background-color: white;
+    color: black;
+}
+
+.rateBG, ul li:focus {
+    background-color: hsl(25, 97%, 53%);
+    color: black;
+}
+
+button {
+    width: 100%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 1.5rem;
+    background-color: hsl(25, 97%, 53%);
+    font-weight: 700;
+    transition-duration: 200ms;
+    cursor: not-allowed;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+}
+
+.thanks-note {
+    padding: 1.8rem;
+    border-radius: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    background-image: linear-gradient(to bottom, hsl(213, 19%, 18%), hsl(213, 19%, 13%));
+    text-align: center;
+    display: none;
+}
+
+.thanks-note img {
+    height: 5rem;
+    margin-block-start: 0.5rem;
+}
+
+.thanks-note :nth-child(2) {
+    width: fit-content;
+    font-size: 0.7rem;
+    letter-spacing: 0.05rem;
+    font-weight: 500;
+    margin-inline: auto;
+    padding-inline: 0.7rem;
+    padding-block: 0.3rem;
+    color: hsl(25, 97%, 53%);
+    background-color: hsl(213, 19%, 22%);
+    border-radius: 1rem;
+}
+
+.thanks-note :nth-child(3) {
+    font-size: 1.3rem;
+    font-weight: 500;
+    margin-block-start: 2rem;
+    margin-block-end: 1rem;
+}
+
+.desc, .thanks-note :nth-child(4) {
+    color: hsl(217, 12%, 63%);
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.4rem;
+    margin-block-start: 0.5rem;
+    margin-block-end: 1.5rem;
+}
+
+
+
